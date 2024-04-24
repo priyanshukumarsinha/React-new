@@ -10,7 +10,7 @@ function App() {
   }
 
   const removeValue = () => {
-    setCounter(--count)
+    setCounter(count>0?--count:count)
   }
 
   return (

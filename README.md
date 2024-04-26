@@ -61,43 +61,19 @@ Steps Involved :
   npm run dev
 ```
 
-4. Setup Environment Variables 
+4. Setup Environment Variables ✅(.env file)
+
+  ![alt text](image.png)
+
 5. git ignore for .env file
 6. Initialize  Environment Variables (appWrite)
-    1. Create Project<br>
+    1. Create Project<br>        
+    2. Create DataBase<br>     
+    3. Create Collection<br>
+    4. Create Attributes (title, content, featuredImage, status, userID)<br>
+    5. Create Index (status)<br>   
+    6. Create Bucket / Storage (Images)<br>
 
-        ```
-        npm create vite@latest
-        ```
-        
-    3. Create DataBase<br>
-
-       ```
-        npm create vite@latest
-        ```
-       
-    5. Create Collection<br>
-
-       ```
-        npm create vite@latest
-        ```
-       
-    7. Create Attributes (title, content, featuredImage, status, userID)<br>
-
-        ```
-        npm create vite@latest
-        ```
-        
-    9. Create Index (status)<br>
-
-        ```
-        npm create vite@latest
-        ```
-        
-    11. Create Bucket / Storage (Images)<br>
-
-         ```
-        npm create vite@latest
-        ```
+  ![alt text](image-2.png)
          
 7. Configure Environment Varibales

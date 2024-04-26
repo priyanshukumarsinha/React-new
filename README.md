@@ -12,53 +12,53 @@ Steps Involved :
   ```
   npm create vite@latest
   ```
-2. Install dependencies
+2. Install dependencies ✅
    
    1. Install Redux Toolkit<br>
 
       ```
-        npm create vite@latest
+        npm install @reduxjs/toolkit react-redux
       ```
       
    3. Install React Redux<br>
 
        ```
-        npm create vite@latest
+        npm install react-redux
       ```
       
    5. Install React Router Dom<br>
 
        ```
-        npm create vite@latest
+        npm install react-router-dom
       ```
       
    7. Install appwrite<br>
 
        ```
-        npm create vite@latest
+        npm install appwrite 
       ```
       
    9. Install tinyMCE<br>
 
        ```
-        npm create vite@latest
+        npm install tinymce
       ```
        
    11. install html-react-parser<br>
 
        ```
-        npm create vite@latest
+        npm install html-react-parse
         ```
         
    13. Install React hook form<br>
         ```
-        npm create vite@latest
+        npm install react-hook-form
         ```
        
-4. Test Server<br>
+3. Test Server ✅<br>
  
-  ```
-  npm create vite@latest
+```
+  npm run dev
 ```
 
 4. Setup Environment Variables 

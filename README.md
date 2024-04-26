@@ -80,3 +80,13 @@ Steps Involved :
 7. Configure Environment Varibales ✅
 
   ![alt text](image-1.png)
+
+## Step 2 : Setting up Authentication Service using Appwrite
+
+1. Create a Service (AuthService : It is a Class), in a file auth.js ✅
+2. Define Constructor Mehtod ✅
+3. Define all other Mehods for : (SignUp, Login, Logout and getCurrentUser) ✅
+
+For Better Practices, we use try catch in all these methods so that we can easily handle errors.
+
+Here is documentation on How to use [Appwrite for Authentication](https://appwrite.io/docs/products/auth/accounts)

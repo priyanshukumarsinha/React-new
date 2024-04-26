@@ -65,8 +65,8 @@ Steps Involved :
 
   ![alt text](image.png)
 
-5. git ignore for .env file
-6. Initialize  Environment Variables (appWrite)
+5. git ignore for .env file ✅
+6. Initialize  Environment Variables (appWrite) ✅
     1. Create Project<br>        
     2. Create DataBase<br>     
     3. Create Collection<br>
@@ -76,4 +76,6 @@ Steps Involved :
 
   ![alt text](image-2.png)
          
-7. Configure Environment Varibales
+7. Configure Environment Varibales ✅
+
+  ![alt text](image-1.png)

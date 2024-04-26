@@ -8,7 +8,7 @@ Tech Stack Used :
 
 ## Step 1 : Project Setup and Setting up Environment Varibales
 Steps Involved : 
-1. Create Vite App <br>
+1. Create Vite App ✅<br>
   ```
   npm create vite@latest
   ```

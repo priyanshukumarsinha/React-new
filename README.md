@@ -63,16 +63,17 @@ Steps Involved :
 
 4. Setup Environment Variables ✅(.env file)
 
-  ![alt text](image.png)
-
 5. git ignore for .env file ✅
 6. Initialize  Environment Variables (appWrite) ✅
-    1. Create Project<br>        
-    2. Create DataBase<br>     
-    3. Create Collection<br>
-    4. Create Attributes (title, content, featuredImage, status, userID)<br>
-    5. Create Index (status)<br>   
-    6. Create Bucket / Storage (Images)<br>
+    1. Create Project        
+    2. Create DataBase     
+    3. Create Collection
+    4. Create Attributes (title, content, featuredImage, status, userID)
+
+      ![alt text](image.png)
+
+    5. Create Index (status)   
+    6. Create Bucket / Storage (Images)
 
   ![alt text](image-2.png)
          

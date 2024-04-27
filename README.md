@@ -129,4 +129,34 @@ Create Components ✅
 1. setLoader ✅
 2. getCurrentUser and dispatch() ✅
 3. change Loader value ✅
-4. Conditional Rendering
+4. Conditional Rendering ✅
+
+## Step 7 : Create All Components : Understanding React components for form validation
+
+1. Container : set css : "w-full max-w-7xl mx-auto px-4" ✅
+2. Updating Footer Component ✅
+3. Create Logo Component : props : width = '100px' ✅
+4. Create LogoutBtn Component in Header 
+    1. Add Functionality to LogoutBtn : Create a dispatch and a logout handler ✅
+    2. Add css : 'inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full' ✅
+5. update Header Component : 
+    1. useSelector : to get status ✅
+    2. useNavigate ✅
+    3. navItems array of objects containing name and slug and active : Home, Login, Signup, All Posts, Add Post
+     [Create a navigation bar with a logo, Adding navigation with React Router] ✅
+    4. CSS : py-3 shadow bg-gray-500 ✅
+    5. Nav Item Button CSS : 'inline-block py-6 py-2 duration-200 hover:bg-blue-100 rounded-full' ✅
+    6. Add Logout Button ✅
+6. Create Button Componenet 
+    1. Props : children, type, bgColor, textColor, className, ...props ✅
+    2. React components can be referred to as children or text
+7. Create Input Component
+    1. forwardRef(fn, ref) ✅
+    2. props : label, type = "text", className = " ", ...props ✅
+    3. CSS : className = "w-full" ✅
+    4. Creating unique IDs for accessibility purpose ✅
+8. Importing components in React using index file ✅
+
+
+
+

@@ -114,3 +114,6 @@ Here is documentation on How to use [Appwrite for Authentication](https://appwri
 2. Creating and configuring redux store and authentication slice (authSlice.js, createSlice({name, initialState, reducers : {//actions(methods)}}), authSlice.reducers, authSlice.actions) ✅
 3. Configuring Redux Toolkit for managing state and actions in big projects (state, action, action.payload)✅
 
+## Step 5 : Creating Header and Footer Components 
+
+1. Create Components ✅

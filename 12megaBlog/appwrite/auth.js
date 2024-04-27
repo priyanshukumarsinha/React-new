@@ -1,5 +1,5 @@
 import { Client, Account, ID } from "appwrite";
-import conf from "../conf/conf";
+import conf from "../src/conf/conf";
 
 export class AuthService {
     client;
@@ -10,12 +10,12 @@ export class AuthService {
                         .setProject(conf.appWriteProjectId);
         this.account = new Account(this.client);
     }
-    async createAccount({email, passwrod, name}){
+    async createAccount({email, password, name}){
         try {
-            const userAccount =  await this.account.create(ID.unique(), email, passwrod, name)    
+            const userAccount =  await this.account.create(ID.unique(), email, password, name)    
             if(userAccount){
                 //if not null, call another method
-                return this.login({email, passwrod});
+                return this.login({email, password});
             }
             else{
                 // if null
@@ -26,9 +26,9 @@ export class AuthService {
         }
     }
 
-    async login({email, passwrod}){
+    async login({email, password}){
         try {
-            return await this.account.createEmailSession(email, passwrod)
+            return await this.account.createEmailSession(email, password)
         } catch (error) {
             console.log("Appwrite Service :: login :: error :: ", error);
         }

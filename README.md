@@ -54,6 +54,12 @@ Steps Involved :
         ```
         npm install react-hook-form
         ```
+    14. Install Tailwind and [Configure](https://tailwindcss.com/docs/guides/vite) <br>
+        ```
+        npm install -D tailwindcss postcss autoprefixer
+        npx tailwindcss init -p
+        ```
+        
        
 3. Test Server ✅<br>
  
@@ -116,4 +122,11 @@ Here is documentation on How to use [Appwrite for Authentication](https://appwri
 
 ## Step 5 : Creating Header and Footer Components 
 
-1. Create Components ✅
+Create Components ✅
+
+## Step 6 : Configuring Redux Toolkit Methods for login and logout in App.jsx
+
+1. setLoader ✅
+2. getCurrentUser and dispatch() ✅
+3. change Loader value ✅
+4. Conditional Rendering

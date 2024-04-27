@@ -106,3 +106,10 @@ Here is documentation on How to use [Appwrite for Authentication](https://appwri
   1. uploadFile Method : Upload the File to the Storage (or Bucket) ✅
   2. deleteFile Method : Delete the File Using the fileId provided during uploadFile() ✅
   3. getFilePreview Method : Previews the File, It is fast and hence We don't need to use async - await here. ✅
+
+
+## Step 4 : Configuration of  Redux Toolkit
+
+1. Setting up a store using Redux toolkit : (store.js, configureStore({}))✅
+2. Creating and configuring redux store and authentication slice (authSlice.js, createSlice({name, initialState, reducers : {//actions(methods)}}), authSlice.reducers, authSlice.actions)
+3. Configuring Redux Toolkit for managing state and actions in big projects (state, action, action.payload)

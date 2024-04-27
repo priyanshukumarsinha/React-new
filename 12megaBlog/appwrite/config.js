@@ -10,7 +10,7 @@ export class Service{
                         .setEndpoint(conf.appWriteUrl)
                         .setProject(conf.appWriteProjectId);
         this.databases = new Databases(this.client)
-        this.bucket = new Storage(conf.appWriteBucketId);
+        this.bucket = new Storage(this.client);
     }
 
     async createPost(slug, {title, content, featuredImage, status, userID}){
@@ -67,6 +67,38 @@ export class Service{
             );
         } catch (error) {
             console.log("Appwrite Service :: deletePost :: error :: ", error);
+            return false;
+        }
+    }
+
+    // file upload services
+
+    async uploadFile(file){
+        try {
+            return await this.storage.createFile(conf.appWriteBucketId, ID.unique(),
+                file
+        );
+        } catch (error) {
+            console.log("Appwrite Service :: uploadFile :: error :: ", error);
+            return false;
+        }
+    }
+
+    async deleteFile(fileId){
+        try {
+            this.storage.deleteFile(conf.appWriteBucketId, fileId);
+            return true;
+        } catch (error) {
+            console.log("Appwrite Service :: deleteFile :: error :: ", error);
+            return false;
+        }
+    }
+
+    async getFilePreview(fileId){
+        try {
+            return this.storage.getFilePreview(conf.appWriteBucketId, fileId);
+        } catch (error) {
+            console.log("Appwrite Service :: getFilePreview :: error :: ", error);
             return false;
         }
     }

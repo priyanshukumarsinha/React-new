@@ -103,6 +103,6 @@ Here is documentation on How to use [Appwrite for Authentication](https://appwri
   5. getPosts Method : All the posts available on the feed. [Query Docs](https://appwrite.io/docs/products/databases/queries) ✅
     _[Here, We got to know how to pass Queries, and what Other parameters we can give in this method ( i.e Pagination , Number of Results, etc)]_
 4. File Upload Services : [Storage Docs](https://appwrite.io/docs/references/cloud/client-web/storage)
-  1. uploadFile Method : Upload the File to the Storage (or Bucket)
-  2. deleteFile Method : Delete the File Using the fileId provided during uploadFile()
-  3. getFilePreview Method : Previews the File, It is fast and hence We don't need to use async - await here.
+  1. uploadFile Method : Upload the File to the Storage (or Bucket) ✅
+  2. deleteFile Method : Delete the File Using the fileId provided during uploadFile() ✅
+  3. getFilePreview Method : Previews the File, It is fast and hence We don't need to use async - await here. ✅

@@ -170,6 +170,7 @@ Create Components ✅
      a) Services : navigate, dispatch, useForm, error State (to handle errors), login method <br>
      b) div > div |  (div > logo ) | h2 Sign in to Your Account | Link to Sign Up  | p to show error | form > div > Email Input : {[...register("email")](https://react-hook-form.com/get-started), { required : true, validate : { matchPatern : (value) => [regexExpression](https://regexr.com/) || "Email Address must be Valid"} | 
 Password Input | Button : Sign in
+12. Create Signup Component
 
 
 

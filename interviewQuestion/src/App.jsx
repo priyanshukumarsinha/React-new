@@ -7,8 +7,8 @@ function App() {
   const [value, setValue] = useState(1)
   const [multipliedValue, setMultipliedValue] = useState(1)
   const multiplyBy5 = () => {
-    setMultipliedValue(value*5)
     setValue(value+1)
+    setMultipliedValue(value*5)
   }
 
   return (
